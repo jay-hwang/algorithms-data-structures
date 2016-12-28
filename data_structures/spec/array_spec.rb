@@ -136,6 +136,7 @@ describe MyArray do
       # capacity should be doubled
       expect(arr.send(:capacity)).to eq(16)
     end
+    
     it "shifts/unshifts without O(n) copying" do
       arr = MyArray.new
 
