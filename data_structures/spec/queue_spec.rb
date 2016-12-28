@@ -1,7 +1,7 @@
 require 'queue'
 
-describe MyQueue do
-  let(:queue) { MyQueue.new }
+describe Queue do
+  let(:queue) { Queue.new }
 
   it 'starts out empty' do
     expect(queue.length).to eq 0

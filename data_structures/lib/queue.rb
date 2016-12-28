@@ -1,4 +1,4 @@
-class MyQueue
+class Queue
   attr_reader :length
 
   def initialize(size = 8)
