@@ -37,7 +37,7 @@ describe Queue do
     end
   end
 
-  describe '#empty' do
+  describe '#empty?' do
     it 'returns true if queue is empty' do
       expect(queue.empty?).to be true
     end
@@ -84,7 +84,7 @@ describe Queue do
     end
   end
 
-  describe 'resize!' do
+  describe '#resize!' do
     it "doubles capacity when filled" do
       store = queue.send(:store)
 
