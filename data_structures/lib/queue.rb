@@ -56,10 +56,11 @@ class Queue
     end
 
     def resize!
-      @length, @start_idx = 0, 0
-      old_store = store
-      @store = Array.new(capacity * 2, nil)
-      old_store.each { |node| @store.push(node) }
+      new_store = Array.new(capacity * 2, nil)
+      length.times { |i| new_store[i] = self[i] }
+
       @capacity *= 2
+      @start_idx = 0
+      @store = new_store
     end
 end

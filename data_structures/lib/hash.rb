@@ -7,6 +7,7 @@ class MyHash
 
   def initialize(size = 8)
     @store = Array.new(size) { LinkedList.new }
+    @capacity = size
     @count = 0
   end
 
