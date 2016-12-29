@@ -35,7 +35,7 @@ describe Stack do
     it 'keeps track of length on push' do
       expect(stack.length).to eq 0
       stack.push(1)
-      expect(stack.lengtH).to eq 1
+      expect(stack.length).to eq 1
       5.times { |i| stack.push(i) }
       expect(stack.length).to eq 6
     end
