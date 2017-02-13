@@ -1,8 +1,8 @@
-require 'hash'
+require 'hash_map'
 
-describe MyHash do
+describe MyHashMap do
   let(:hash) do
-    hash = MyHash.new
+    hash = MyHashMap.new
     hash.set(:first, 1)
     hash.set(:second, 2)
     hash.set(:third, 3)

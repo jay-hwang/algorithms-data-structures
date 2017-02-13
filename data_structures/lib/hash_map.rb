@@ -1,6 +1,6 @@
 require 'linked_list'
 
-class MyHash
+class MyHashMap
   include Enumerable
 
   attr_reader :count
