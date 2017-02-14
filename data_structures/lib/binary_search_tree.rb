@@ -9,6 +9,12 @@ class BSTNode
     @left = nil
     @right = nil
   end
+
+  def children
+    children = []
+    children << left if left
+    children << right if right
+  end
 end
 
 class BinarySearchTree
