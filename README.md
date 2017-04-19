@@ -1,6 +1,6 @@
 # algorithms-data-structures
 
-Repo of common algorithms and data structures. TDD enforced.
+The purpose of this repository is to implement common algorithms and data structures from scratch to get a deep understanding of the inner-workings. Each algorithm/data-structure is accompanied by a beautiful set of tests written in Rspec.
 
 ## Algorithms
 
